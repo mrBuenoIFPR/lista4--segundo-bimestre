@@ -1,7 +1,6 @@
 programa
 {
-	inclua biblioteca Texto
-	
+
 	funcao inicio()
 	{
 		inteiro a = 80000, b = 200000, anos = 0
@@ -10,7 +9,7 @@ programa
 		enquanto(a < b)
 		{
 			a = a + (a * popA)
-			b = b + (a * popB)
+			b = b + (b * popB)
 			anos++
 		}
 		escreva("Serão necessários ", anos, " anos para o país A ter uma população igual à do país B.")
